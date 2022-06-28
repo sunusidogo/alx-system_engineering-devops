@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $str|tr ' ' '\n'|tac|tr '\n' ' ' 
+cut -d ':' -f 1,6 /etc/passwd | sort 
