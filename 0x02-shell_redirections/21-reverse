@@ -1,2 +1,2 @@
 #!/bin/bash
-! grep text file; exit $?  
+echo $str|tr ' ' '\n'|tac|tr '\n' ' ' 
