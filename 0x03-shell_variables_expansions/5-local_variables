@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | grep "<" | awk '{ print $2 }'   
+set | grep "<" | awk '{ print $2 }'    
